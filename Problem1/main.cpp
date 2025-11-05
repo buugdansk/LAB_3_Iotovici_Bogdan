@@ -64,6 +64,5 @@ int main(){
     } else {
         cout << "both rectangles have the same area." << endl;
     }
-
     return 0;
 }
