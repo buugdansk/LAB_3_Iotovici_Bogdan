@@ -12,11 +12,11 @@ public:
         imag = i;
     }
 
-    float getReal() {
+    float greal() {
         return real;
     }
 
-    float getImag() {
+    float gimag() {
         return imag;
     }
 
@@ -41,8 +41,8 @@ int main() {
     ComplexNumber sum = c1.add(c2);
     ComplexNumber product = c1.multiply(c2);
 
-    cout << "suma: " << sum.getReal() << " + " << sum.getImag() << "i" << endl;
-    cout << "produs: " << product.getReal() << " + " << product.getImag() << "i" << endl;
+    cout << "suma: " << sum.greal() << " + " << sum.gimag() << "i" << endl;
+    cout << "produs: " << product.greal() << " + " << product.gimag() << "i" << endl;
 
     return 0;
 }
